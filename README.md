@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/frncscsrcc/filesplitter)](https://goreportcard.com/report/github.com/frncscsrcc/filesplitter)
+
 File Splitter
 ===
 
