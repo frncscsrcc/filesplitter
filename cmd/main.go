@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/frncscsrcc/filesplitter/pkg/filesplitter"
 	"flag"
 	"fmt"
+	"github.com/frncscsrcc/filesplitter/pkg/filesplitter"
 )
 
 func main() {
@@ -36,7 +36,7 @@ func main() {
 	}
 
 	manifest := fsplit.GetManifest()
-	fmt.Printf("%s\n", manifest.OriginalFileName)	
+	fmt.Printf("%s\n", manifest.OriginalFileName)
 	for _, part := range manifest.Parts {
 		fmt.Printf("  %s\n", part.FileName)
 	}

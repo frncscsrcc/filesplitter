@@ -1,6 +1,6 @@
 package filesplitter
 
-import(
+import (
 	"encoding/json"
 	"io/ioutil"
 )
