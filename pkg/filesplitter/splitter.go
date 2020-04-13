@@ -217,6 +217,9 @@ func (fsplit *FileSplit) savePartialLocal(workerId int, blockId int, content []b
 
 	// Write bytes to file
 	bytesWritten, err := file.Write(content)
+	if err != nil {
+		return "", "", err
+	}
 	if bytesWritten != nBytes {
 		return "", "", errors.New("not all bytes was saved for " + partFileName)
 	}
