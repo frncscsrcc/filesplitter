@@ -3,7 +3,7 @@
 File Splitter
 ===
 
-Splits a file in several parts, check the digests and produces a manifest file with the fragment details.
+Splits a file in several parts, compares the hash digests and produces a manifest file with the fragment details.
 
 From command line:
 ```
